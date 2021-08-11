@@ -1,19 +1,8 @@
 name: CH3-POI-BUILD
 
 # If you want to trigger this branch then change the branch name to a usable branch name
-on:  
-  pull_request:
-    branches:
-      - REPLACE-WITH-MASTER-BRANCH-NAME
-    paths: 
-    - apis/poi/**
-    - .github/workflows/ch3-poi-build.yml
-
-  push:    
-   branches: [ REPLACE-WITH-MASTER-BRANCH-NAME ]
-   paths: 
-    - apis/poi/**
-    - .github/workflows/ch3-poi-build.yml
+on:
+  workflow_dispatch
 
 jobs:
   build_and_test:
