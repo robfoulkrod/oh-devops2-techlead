@@ -75,4 +75,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-       filename: .github/bug_report.md
+       filename: .github/ISSUE_TEMPLATE.md
